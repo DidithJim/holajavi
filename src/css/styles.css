@@ -1,0 +1,401 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto2;
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+
+/*Sección Hero*/
+
+.seccion__hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007AFF;
+    height: 100vh;
+    font-family: Roboto;
+    color: white;
+}
+
+.seccion__hero--contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+    width:70%; 
+    height: 90vh;
+    gap: 4rem;
+    row-gap: 0;
+
+   
+}
+
+
+.imagenHero {
+    grid-column: 1 / 2;
+    width: 4rem;
+    margin: 0;
+    padding: 0;
+}
+  
+.seccion__hero--titulo {
+    grid-column: 1 / 2;
+    font-size: 2rem;
+    margin: 0;
+
+
+}
+  
+.seccion__hero p {
+    grid-column: 1 / 2;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.663);
+    font-family: Roboto2;
+
+
+
+}
+  
+.botonDescarga {
+    grid-column: 1 / 2;
+    margin: 0;
+
+
+}
+  
+.imagenTelefono {
+    grid-column: 3 / 3;
+    grid-row: 2/5;
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/*Sección Drag Left */
+
+.seccion__drag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff2d55;
+    color: white;
+    font-family: Roboto;
+}
+
+.seccion__drag--contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 70%;
+    height: auto;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.imagenFlecha{
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 5rem;
+    width: 2rem;
+
+}
+
+
+
+.imagenTelefono--archivo {
+    width: 65%;
+    margin: 0;
+
+}
+
+
+.seecion__drag--titulo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 7.5rem;
+
+}
+
+.seccion__drag--texto{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10rem;
+    color: rgba(255, 255, 255, 0.663);
+    font-family: Roboto2;
+
+}
+
+
+/*Seccion Right*/
+
+.seccion__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: Roboto;
+}
+
+.seccion__right--contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-bottom: 3rem;
+}
+
+.imagenFlecha--dos{
+    grid-column: 1/2;
+    width: 2rem;
+    margin-top: 5rem;
+    grid-row: 1/2;
+
+}
+
+.seccion__right--titulo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 7.5rem;
+
+
+}
+
+.seccion__right--texto{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 10rem;
+    font-family: Roboto2;
+
+}
+
+.imagenTelefono--keep {
+    width: 80%;
+    grid-column: 2/2;
+    grid-row: 1;
+}
+
+/*Sección Tap*/
+
+.seccion__tap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    color: white;
+    background-color: #ffb800;
+}
+
+.seccion__tap--contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5rem;
+    padding-top: 3rem;
+}
+
+.imagenFlecha--tres{
+    grid-column: 2/3;
+    margin-top: 5rem;
+    width: 2rem;
+    grid-row: 1/2;
+
+
+}
+
+.seccion__tap--titulo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 7.5rem;
+    color: black;
+
+}
+
+.seccion__tap--texto{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10rem;
+    font-family: Roboto2;
+    color: black;
+}
+
+.imagenTelefono--tres{
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1;
+
+}
+
+
+
+/*Sección Reply*/
+
+.seccion__reply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Roboto;
+    background-color: #7000ff;
+}
+
+.seccion__reply--contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5rem;
+    padding-top: 3rem;
+
+}
+
+.imagenFlecha--cuatro{
+    grid-column: 1/2;
+    margin-top: 5rem;
+    width: 2rem;
+    grid-row: 1/2;
+
+}
+
+.seccion__reply--titulo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 7.5rem;
+
+
+}
+
+.seccion__reply--texto{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 10rem;
+    font-family: Roboto2;
+
+
+}
+
+.imagenTelefono--cuatro{
+    width: 80%;
+    grid-column: 2/2;
+    grid-row: 1;
+
+}
+
+/*Sección Cards 1*/
+
+.seccion__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: Roboto;
+    color: white;
+}
+
+.seccion__cards--contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2;
+    gap: 1rem;
+    margin: 2.5rem;
+    width: 60%;
+
+}
+
+.card{
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.card__image{
+    width: 2rem;
+}
+
+
+/*Sección Testimonials*/
+
+.seccion__testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.seccion__testimonials--contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2;
+    gap: 1rem;
+    margin: 1rem;
+    width: 60%;
+}
+
+.testimonial{
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
+.testimonial__image{
+    width: 5rem;
+}
+
+.seccion__testimonials--titulo{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+
+/*Sección Footer*/
+
+.seccion__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion__footer--contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer__lista {
+    margin: 10px;
+    color: rgb(57, 57, 57);
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.seccion__contacto {
+    text-align: center; 
+    margin: 0.5rem;
+}
+
+.seccion__contacto--contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion__contacto--contenedor img {
+    width: 1rem;
+    margin: 0 0 0 0.6rem;
+}
